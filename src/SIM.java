@@ -37,7 +37,7 @@ public class SIM {
 	public void printSIMData() {
 		String out = "SIM number: " + number + ", credit: " + credit + "\n";
 		for (int i = 0; i < calls.size(); i++) {
-			out = out + "call:\n" + calls.get(i).toString() + "\n";
+			out = out + "call\n" + calls.get(i).toString() + "\n";
 		}
 
 		System.out.print(out);

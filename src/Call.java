@@ -1,10 +1,9 @@
 
 public class Call {
-	String number;
-	float minutes;
+	private String number;
+	private float minutes;
 
 	public Call(String number, float length) {
-		super();
 		this.number = number;
 		this.minutes = length;
 	}
